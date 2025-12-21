@@ -1,0 +1,81 @@
+<ion-header [translucent]="true"> 
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      <ion-icon name="checkmark-circle-outline"></ion-icon>
+      Validation
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="reservation-page">
+  <ion-card *ngIf="lastReservation" class="reservation-card">
+    <ion-card-header>
+      <ion-card-title>
+        Réservation validée <ion-icon name="checkmark-circle" color="success"></ion-icon>
+      </ion-card-title>
+      <ion-card-subtitle>
+        Status: <span [ngClass]="{'valide': lastReservation.status === 'valide', 'non-valide': lastReservation.status === 'nonvalider'}">
+          {{ lastReservation.status }}
+        </span>
+      </ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon slot="start" name="location-outline"></ion-icon>
+        
+        <ion-label>
+          <strong>Départ :</strong> {{ lastReservation.VilleDepart }}
+        </ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-icon slot="start" name="location-outline"></ion-icon>
+        <ion-label>
+          <strong>Arrivée :</strong> {{ lastReservation.VilleArrivee }}
+        </ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-icon name="calendar-outline" slot="start"></ion-icon>
+        <ion-label>
+          <strong>Date départ :</strong> {{ lastReservation.DateDepart }}
+        </ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+         <ion-icon slot="start" name="star-outline"></ion-icon>
+        <ion-label>
+          <strong>Type :</strong> {{ lastReservation.typeReservation }}
+        </ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-icon name="cash-outline" slot="start"></ion-icon>
+        <ion-label>
+          <strong>Montant :</strong> {{ lastReservation.montant }} FCFA
+        </ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-icon name="time-outline" slot="start"></ion-icon>
+        <ion-label>
+          <strong>Date réservation :</strong> {{ lastReservation.DateReservation }}
+        </ion-label>
+      </ion-item>
+
+      <ion-button expand="full" color="success" shape="round" class="main-btn" *ngIf="lastReservation.status === 'nonvalider'" (click)="validateReservation()">
+        <ion-icon name="checkmark-outline" slot="start"></ion-icon>
+        Valider la réservation
+      </ion-button>
+
+      <ion-button expand="full"shape="round" class="main-btn" color="danger" (click)="annulerReservation()">
+        <ion-icon name="close-outline" slot="start"></ion-icon>
+        Annuler
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

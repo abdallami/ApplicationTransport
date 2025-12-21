@@ -7,7 +7,11 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo:'home',
     pathMatch: 'full',
+  },
+  {
+    path: 'validation',
+    loadComponent: () => import('./validation/validation.page').then( m => m.ValidationPage)
   },
 ];

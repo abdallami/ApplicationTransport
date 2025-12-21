@@ -1,0 +1,63 @@
+.reservation-page {
+  padding: 10px;
+  ion-card.reservation-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+
+    ion-card-header {
+      text-align: center;
+      ion-card-title {
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+      ion-card-subtitle {
+        margin-top: 5px;
+        font-weight: 500;
+      }
+      .valide {
+        color: green;
+        font-weight: bold;
+      }
+      .non-valide {
+        color: orange;
+        font-weight: bold;
+      }
+    }
+
+    ion-card-content {
+      ion-item {
+        margin-bottom: 5px;
+        ion-icon {
+          font-size: 1.3rem;
+        }
+      }
+
+      ion-button {
+        margin-top: 10px;
+        border-radius: 10px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .reservation-page {
+    padding: 5px;
+    ion-card.reservation-card {
+      ion-card-header ion-card-title {
+        font-size: 1.2rem;
+      }
+      ion-item ion-label {
+        font-size: 0.9rem;
+      }
+      ion-button {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

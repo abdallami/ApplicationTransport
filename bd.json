@@ -1,0 +1,242 @@
+{
+  "Client": [
+    {
+      "Nom": "oumar",
+      "Prenom": "moustapha",
+      "Telephone": 81708034,
+      "Email": "oumarmoustapha@gmail.com",
+      "MotDepasse": "oumar123",
+      "id": "1850"
+    },
+    {
+      "Nom": "ali",
+      "Prenom": "abdallah",
+      "Telephone": 81708030,
+      "Email": "aliAbdallah@gmail.com",
+      "MotDepasse": "Ali123",
+      "id": "8ae9"
+    },
+    {
+      "Nom": "ben",
+      "Prenom": "djamen",
+      "Telephone": 81708034,
+      "Email": "bendjamen@gmail.com",
+      "MotDepasse": "ben123",
+      "id": "509c"
+    },
+    {
+      "Nom": "kata",
+      "Prenom": "aballah",
+      "Telephone": 81708034,
+      "Email": "kataabadalah@gmail.com",
+      "MotDepasse": "kata123",
+      "id": "a0c5"
+    }
+  ],
+  "Reservation": [
+    {
+      "id": "3d5d",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Zinder",
+      "DateDepart": "2025-12-10",
+      "typeReservation": "VIP",
+      "DateReservation": "2025-12-20T22:17",
+      "montant": 10000
+    },
+    {
+      "id": "88f3",
+      "VilleDepart": "Zinder",
+      "VilleArrivee": "Tahoua",
+      "DateDepart": "2025-12-03",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-20T22:18",
+      "montant": 5000
+    },
+    {
+      "id": "eb07",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Diffa",
+      "DateDepart": "2025-12-04",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-20T22:22",
+      "montant": 5000
+    },
+    {
+      "id": "885f",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Maradi",
+      "DateDepart": "2025-12-10",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-20T22:36",
+      "montant": 5000
+    },
+    {
+      "id": "5155",
+      "VilleDepart": "Zinder",
+      "VilleArrivee": "Diffa",
+      "DateDepart": "2025-11-30",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-20T22:38",
+      "montant": 5000
+    },
+    {
+      "id": "9aa3",
+      "VilleDepart": "Tahoua",
+      "VilleArrivee": "Zinder",
+      "DateDepart": "2025-12-23",
+      "typeReservation": "VIP",
+      "DateReservation": "2025-12-20T22:42",
+      "montant": 10000
+    },
+    {
+      "id": "c757",
+      "VilleDepart": "Maradi",
+      "VilleArrivee": "Zinder",
+      "DateDepart": "2025-12-09",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-20T22:43",
+      "montant": 5000
+    },
+    {
+      "id": "4b66",
+      "VilleDepart": "Tahoua",
+      "VilleArrivee": "Zinder",
+      "DateDepart": "2025-12-04",
+      "typeReservation": "VIP",
+      "DateReservation": "2025-12-21T09:48",
+      "montant": 10000
+    },
+    {
+      "id": "4498",
+      "VilleDepart": "Zinder",
+      "VilleArrivee": "Tahoua",
+      "DateDepart": "2022-01-01",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-21T10:28",
+      "montant": 5000,
+      "status": "valider"
+    },
+    {
+      "id": "a6df",
+      "VilleDepart": "Zinder",
+      "VilleArrivee": "Tahoua",
+      "DateDepart": "2025-12-24",
+      "typeReservation": "VIP",
+      "DateReservation": "2025-12-21T11:04",
+      "montant": 10000,
+      "status": "valider"
+    },
+    {
+      "id": "e1fc",
+      "VilleDepart": "Zinder",
+      "VilleArrivee": "Zinder",
+      "DateDepart": "2025-12-04",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-21T12:54",
+      "montant": 5000,
+      "status": "nonvalider"
+    },
+    {
+      "id": "deb6",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Niamey",
+      "DateDepart": "2025-12-07",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-21T13:03",
+      "montant": 5000,
+      "status": "nonvalider"
+    },
+    {
+      "id": "0956",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Niamey",
+      "DateDepart": "2025-12-02",
+      "typeReservation": "VIP",
+      "DateReservation": "2025-12-21T13:09",
+      "montant": 10000,
+      "status": "nonvalider"
+    },
+    {
+      "id": "92c0",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Niamey",
+      "DateDepart": "2025-12-27",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-21T13:18",
+      "montant": 5000,
+      "status": "valider"
+    },
+    {
+      "id": "bfda",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Niamey",
+      "DateDepart": "2025-12-03",
+      "typeReservation": "VIP",
+      "DateReservation": "2025-12-21T13:44",
+      "montant": 10000,
+      "status": "valider"
+    },
+    {
+      "id": "6b1b",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Niamey",
+      "DateDepart": "2025-12-03",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-21T14:31",
+      "montant": 5000,
+      "status": "valider"
+    },
+    {
+      "id": "61e5",
+      "VilleDepart": "Niamey",
+      "VilleArrivee": "Niamey",
+      "DateDepart": "2025-12-09",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-21T14:34",
+      "montant": 5000,
+      "status": "valider"
+    },
+    {
+      "id": "df13",
+      "VilleDepart": "Zinder",
+      "VilleArrivee": "Zinder",
+      "DateDepart": "2025-12-03",
+      "typeReservation": "standard",
+      "DateReservation": "2025-12-21T14:54",
+      "montant": 5000,
+      "status": "valider"
+    }
+  ],
+  "Bus": [
+    {
+      "NumeroBus": 1,
+      "MatriculeBus": "Bus1",
+      "Capacite": 40,
+      "id": "5206"
+    },
+    {
+      "NumeroBus": 2,
+      "MatriculeBus": "Bus2",
+      "Capacite": 40,
+      "id": "3b1b"
+    },
+    {
+      "NumeroBus": 3,
+      "MatriculeBus": "Bus3",
+      "Capacite": 40,
+      "id": "55c0"
+    },
+    {
+      "NumeroBus": 4,
+      "MatriculeBus": "Bus4",
+      "Capacite": 40,
+      "id": "356f"
+    },
+    {
+      "NumeroBus": 5,
+      "MatriculeBus": "Bus5",
+      "Capacite": 40,
+      "id": "f09d"
+    }
+  ]
+}
