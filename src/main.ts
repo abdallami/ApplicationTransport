@@ -6,7 +6,7 @@ import { routes } from './app/app.routes';
 import { AppComponent } from './app/app.component';
 import { provideHttpClient } from '@angular/common/http';
 
-import { mail, home, person, settings, notifications, helpCircle, calendar, cube, business, airplane, location, chatbubbles } from 'ionicons/icons';
+import { mail, home, person, settings, notifications, helpCircle, calendar, cube, business, airplane, location, chatbubbles, refreshCircle, ticketOutline, cubeOutline, locateOutline, busOutline, bulbOutline } from 'ionicons/icons';
 import { addIcons } from 'ionicons';
 
 // Ajout des icônes
@@ -17,6 +17,12 @@ addIcons({
   'settings': settings,
   'notifications': notifications,
   'help-circle': helpCircle,
+   'refresh-circle':refreshCircle,
+   'ticket-outline':ticketOutline,
+   'cube-outline':cubeOutline,
+   'location-outline':locateOutline,
+   'bus-outline':busOutline,
+   'bulb-outline':bulbOutline
 });
 
 
