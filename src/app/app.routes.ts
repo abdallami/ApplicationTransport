@@ -7,23 +7,27 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo:'accueil',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
   {
     path: 'validation',
-    loadComponent: () => import('./validation/validation.page').then( m => m.ValidationPage)
+    loadComponent: () => import('./validation/validation.page').then(m => m.ValidationPage)
   },
   {
     path: 'createcompte',
-    loadComponent: () => import('./createcompte/createcompte.page').then( m => m.CreatecomptePage)
+    loadComponent: () => import('./createcompte/createcompte.page').then(m => m.CreatecomptePage)
   },
   {
     path: 'login',
-    loadComponent: () => import('./login/login.page').then( m => m.LoginPage)
+    loadComponent: () => import('./login/login.page').then(m => m.LoginPage)
   },
   {
     path: 'accueil',
+<<<<<<< HEAD
     loadComponent: () => import('./accueil/accueil.page').then( m => m.accueilPage)
+=======
+    loadComponent: () => import('./accueil/accueil.page').then(m => m.AccueilPage)
+>>>>>>> connexion
   },
 ];

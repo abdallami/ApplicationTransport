@@ -1,12 +1,23 @@
+<<<<<<< HEAD
 <ion-header>
   <ion-toolbar>
     <ion-title class="ion-text-center">
       Bienvenue : En un click vous êtes le roi !!
     </ion-title>
+=======
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons>
+      <ion-button fill="clear" slot="star-outline" (click)="logout()"><ion-icon
+          name="log-out-outline"></ion-icon></ion-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Accueil</ion-title>
+>>>>>>> connexion
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
+<<<<<<< HEAD
   <img src="assets/imgs/logo.png" alt="Logo" class="position" />
   <img src="assets/imgs/logo.png" alt="Logo" class="droite" />
   <div style="height: 50px;"></div>
@@ -17,9 +28,21 @@
   <div style="height: 30px;"></div>
 <div class="cadre">
   <div class="bien"><h2 class="ion-text-center">BARKA DA ZOUWA : KOUBEINIE</h2></div>
+=======
+  <ion-card *ngIf="currentUser">
+    <ion-card-content class="user-info">
+      <ion-icon name="person-outline"></ion-icon>
+      <strong>
+        Nom: {{ currentUser.Nom }} <br />
+        prenom:{{ currentUser.Prenom }}
+      </strong>
+    </ion-card-content>
+  </ion-card>
+>>>>>>> connexion
   <ion-grid>
     <!-- Première rangée -->
     <ion-row>
+<<<<<<< HEAD
       <ion-col size="4">
         <div class="rectangle reservations-color">
           <ion-button expand="block" fill="clear" (click)="goToReservation()">
@@ -28,6 +51,18 @@
             <ion-label class="scroll-text">RESERVATION</ion-label>
           </ion-button>
         </div>
+=======
+
+      <!-- Réservation -->
+      <ion-col size="12" size-md="6">
+        <ion-card class="menu-card" routerLink="/home">
+          <ion-card-content>
+            <ion-icon name="ticket-outline"></ion-icon>
+            <h2 (click)="navigateToReservation()">Réservation</h2>
+            <p>Créer et gérer vos réservations</p>
+          </ion-card-content>
+        </ion-card>
+>>>>>>> connexion
       </ion-col>
 
       <ion-col size="4">
@@ -84,6 +119,7 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+<<<<<<< HEAD
 </div>
   <ion-item>
     <img src="assets/imgs/bus-rental-dubai.webp" class="image" />
@@ -94,3 +130,7 @@
   <div class="cool"><h6>GENIE LOGICIEL TRANSPORT VOYAGEUR VOTRE PARTENAIRE POUR UNE VOYAGE REUSSIT !!!</h6></div>
   <img src="assets/imgs/logo.png" class="imgeee" />
 </ion-content>
+=======
+
+</ion-content>
+>>>>>>> connexion
