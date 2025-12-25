@@ -21,6 +21,7 @@ import {
   logoGoogle,
   logoGithub,
   logoFacebook,
+  businessOutline,
 } from 'ionicons/icons';
 
 import { routes } from './app/app.routes';
@@ -43,7 +44,8 @@ addIcons({
    'cube-outline':cubeOutline,
    'location-outline':locateOutline,
    'bus-outline':busOutline,
-   'bulb-outline':bulbOutline
+   'bulb-outline':bulbOutline,
+   'business-outline':businessOutline
 });
 
 
