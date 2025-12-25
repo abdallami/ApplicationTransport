@@ -10,6 +10,8 @@
 
 <ion-content class="ion-padding">
 
+  <h1>Créer votre compte</h1>
+
   <!-- Formulaire d'inscription -->
   <form [formGroup]="form" (ngSubmit)="submit()">
 
@@ -39,11 +41,11 @@
 
     <p class="error" *ngIf="error">{{ error }}</p>
 
-    <ion-button expand="block" type="submit" [disabled]="form.invalid">
-      Créer un compte
-      <ion-icon slot="end" name="person-add-outline"></ion-icon>
-    </ion-button>
-
   </form>
+
+  <ion-button expand="block" type="submit" [disabled]="form.invalid">
+    Créer un compte
+    <ion-icon slot="end" name="person-add-outline"></ion-icon>
+  </ion-button>
 
 </ion-content>

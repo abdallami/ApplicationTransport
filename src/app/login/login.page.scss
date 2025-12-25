@@ -2,6 +2,14 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  padding: 2rem;
+}
+
 /* Fond global */
 ion-content {
   --background: linear-gradient(to bottom right, #3880ff, white);
